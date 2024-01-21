@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+p{
+    text-align: center;
+    margin-bottom: 15px;
+}
+body{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-size: larger;
+}
+.main{
+    height: 410px;
+    width: 320px;
+    border: 5px solid springgreen;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.8rem;
+    background : linear-gradient( rgb(59, 245, 252),rgb(63, 63, 201),rgb(236, 61, 111));
+}
+.height-cont{
+    margin-top: 10px;
+}
+.result{
+    font-size: small;
+}
+.name{
+    background-color: chartreuse;
+}
+.result{
+    border-bottom: 20px;
+    border: 3px solid black;
+    padding: 12px;
+    background-color: rgb(3, 179, 120);
+    margin-bottom: 15px;
+}
+button{
+    margin-bottom: 15px;
+    padding: 13px;
+    background-color: darkslateblue;
+    border-radius: 18px;
+}
